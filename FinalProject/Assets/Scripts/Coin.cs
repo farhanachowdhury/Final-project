@@ -32,5 +32,6 @@ public class Coin : MonoBehaviour {
 			// Delay 1f for the destroy action to ensure the audio is played
 			Destroy (gameObject,1f);
 		}
+        
 	}
 }

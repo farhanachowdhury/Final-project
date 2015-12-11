@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: b9a1151ef4761f943b7baf697c9fc9ba
+timeCreated: 1449386151
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragon_idle
+    21300002: dragon_walk1
+    21300004: dragon_walk2
+    21300006: dragon_jump
+    21300008: dragon_fire1
+    21300010: fire01
+    21300012: fire02
+    21300014: fire03
+    21300016: fire04
+    21300018: dragon_fire2
+    21300020: dragon_fire3
+    21300022: fire__7
+    21300024: fire__9
+    21300026: fire__8
+    21300028: fire__3
+    21300030: fire__5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 1
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dragon_idle
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 242
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_walk1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 242
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_walk2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 238
+        width: 91
+        height: 93
+      alignment: 9
+      pivot: {x: .521279275, y: .514571488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_jump
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 237
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_fire1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 232
+        width: 86
+        height: 106
+      alignment: 9
+      pivot: {x: .500000715, y: .455129087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire01
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 149
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 145
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire03
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 141
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire04
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_fire2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 77
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dragon_fire3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 69
+        width: 86
+        height: 93
+      alignment: 9
+      pivot: {x: .5, y: .51267457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire__7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 92
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire__9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 98
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire__8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 97
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire__3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 55
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire__5
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 55
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

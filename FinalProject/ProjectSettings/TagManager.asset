@@ -18,6 +18,7 @@ TagManager:
   - BackgroundImage
   - ZombieHead
   - Dragon
+  - Ground
   layers:
   - Default
   - TransparentFX

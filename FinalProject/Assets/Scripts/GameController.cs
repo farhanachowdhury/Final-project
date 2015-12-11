@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-//using System;
+using System;
 
 public class GameController : MonoBehaviour {
 
     public GameObject coin;
-    public Vector3 spawnValues;
+    public Vector3 spawnValuesOne;
+    public int coinCount;
+    public float spawnWaitOne;
+    public float startWaitOne;
+    public float waveWaitOne;
 
 	
 	public Text scoreText;
@@ -51,6 +55,7 @@ public class GameController : MonoBehaviour {
 		if (dragon != null) {
 			dragon_trans = dragon.GetComponent<Transform> ();
 		}
+        StartCoroutine(SpawnWavesOne());
 	}
 
 	void Update(){
@@ -80,11 +85,23 @@ public class GameController : MonoBehaviour {
 	{
 		return time;
 	}
-    public void SpawnWaves()
+    IEnumerator SpawnWavesOne()
     {
-        Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
-        Quaternion spawnRotation = Quaternion.identity;
-        Instantiate(coin, spawnPosition, spawnRotation);
+        yield return new WaitForSeconds(startWaitOne);
+
+        while (true)
+        {
+            for (int i = 0; i < coinCount; i++)
+            {
+                Vector3 spawnPositionOne = new Vector3(UnityEngine.Random.Range(-spawnValuesOne.x, spawnValuesOne.x), spawnValuesOne.y, spawnValuesOne.z);
+                Quaternion spawnRotationOne = Quaternion.identity;
+                Instantiate(coin, spawnPositionOne, spawnRotationOne);
+                yield return new WaitForSeconds(spawnWaitOne);
+            }
+            yield return new WaitForSeconds(waveWaitOne);
+
+        }
+
     }
 
 	public Vector3 GetSpawnPoint()
@@ -142,9 +159,9 @@ public class GameController : MonoBehaviour {
 	}
 
 	// Load Win scene
-	/*public void Win(String level)
+	public void Win(String level)
 	{
 		Application.LoadLevel (level);
 		win = true;
-	}*/
+	}
 }
